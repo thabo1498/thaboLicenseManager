@@ -15,7 +15,7 @@
 
   <div style="padding: 15px; background: #fef9c3; border-radius: 10px; flex: 1;">
     <h3>Expiring Soon</h3>
-    <p><%= @expiring %></p>
+    <p><%= @expiring_soon %></p>
   </div>
 
   <div style="padding: 15px; background: #fee2e2; border-radius: 10px; flex: 1;">
@@ -28,7 +28,7 @@
 <!-- BUTTON -->
 <%= link_to "Create License", new_license_path,
   style: "padding:10px 15px; background:#2563eb; color:white; text-decoration:none; border-radius:8px;" %>
-<br><br>>
+<br><br>
 <div style="margin-bottom: 20px;">
   <%= button_to "Send Expiry Emails Now",
       send_expiry_emails_licenses_path,
