@@ -1,0 +1,24 @@
+<h1>Create License</h1>
+
+<%= form_with model: @license, local: true do |f| %>
+
+  <p>
+    <%= f.label :app_name %><br>
+    <%= f.text_field :app_name %>
+  </p>
+
+  <p>
+    <%= f.label :email %><br>
+    <%= f.email_field :email %>
+  </p>
+
+  <p>
+    <%= f.label :expiry_date %><br>
+    <%= f.date_field :expiry_date %>
+  </p>
+
+  <p>
+    <%= f.submit "Create License" %>
+  </p>
+
+<% end %>

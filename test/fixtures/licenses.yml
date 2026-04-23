@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  app_name: MyString
+  license_key: MyString
+  email: MyString
+  expiry_date: 2026-04-23 20:10:36
+  status: MyString
+
+two:
+  app_name: MyString
+  license_key: MyString
+  email: MyString
+  expiry_date: 2026-04-23 20:10:36
+  status: MyString

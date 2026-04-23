@@ -1,0 +1,14 @@
+<h2>⚠️ License Expiry Notice</h2>
+
+<p>Hello,</p>
+
+<p>Your license for <strong><%= @license.app_name %></strong> is expiring soon.</p>
+
+<ul>
+  <li><strong>License Key:</strong> <%= @license.license_key %></li>
+  <li><strong>Expiry Date:</strong> <%= @license.expiry_date.strftime("%Y-%m-%d") %></li>
+</ul>
+
+<p>Please renew your license to avoid service interruption.</p>
+
+<p>Regards,<br>License Manager System</p>

@@ -1,0 +1,15 @@
+<h1>License Details</h1>
+
+<p><strong>App Name:</strong> <%= @license.app_name %></p>
+
+<p><strong>Email:</strong> <%= @license.email %></p>
+
+<p><strong>License Key:</strong> <%= @license.license_key %></p>
+
+<p><strong>Expiry Date:</strong> <%= @license.expiry_date.strftime("%Y-%m-%d") %></p>
+
+<p><strong>Status:</strong> <%= @license.status %></p>
+
+<br>
+
+<%= link_to "← Back", licenses_path %>
